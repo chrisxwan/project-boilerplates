@@ -24,9 +24,13 @@ Basically, just follow the instructions in the guide. The only instruction that 
 
 `orion create appName`
 
-There's a chance that your computer will complain that the `orion` command is not found. If this is the case, you will want to find where orion was installed from `npm install`. Suppose Orion was installed in /x/y/z/orion. You will want to run this command in your command line if you're on a Mac / Linux machine:
+There's a chance that your computer will complain that the `orion` command is not found. If this is the case, you will want to find where orion was installed from `npm install`. Suppose Orion was installed in `/x/y/z/orion`. You will want to run this command in your command line if you're on a Mac / Linux machine:
 
-`export PATH='/x/y/z:$PATH`
+`export PATH='/x/y/z:$PATH'`
+
+On Windows, you'll need to do:
+
+`set PATH=C:\x\y\z;%PATH%`
 
 Then, you should be able to run `orion` from the command line.
 
